@@ -251,8 +251,58 @@ html {
     margin-top: 200px;
 }
 
-.pol {
-   background-color:#5A34FC;
+form {
+   background-image:linear-gradient(#17738f,#5A34FC);
    border-radius: 10px;
     padding: 20px;
+    color: aliceblue;
 }
+
+.footerr{
+    margin-top: 100px;
+}
+
+.social{
+    margin-top: 200px;
+}
+
+.fa {
+    border-radius: 50%;
+    justify-content: center;
+    padding: 10px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.9;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  /* Twitter */
+  .fa-twitter ,.fa-linkedin{
+    background: #55ACEE;
+    color: white;
+  }
+
+  .fa-instagram {
+    background: #3f729b;
+    color: white;
+  }
+  
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+
